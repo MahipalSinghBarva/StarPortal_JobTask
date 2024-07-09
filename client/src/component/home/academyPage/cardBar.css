@@ -1,0 +1,8 @@
+@media (min-width: 600px) {
+    .img-con{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 0;
+        /* height: 100vh; */
+    }
+}

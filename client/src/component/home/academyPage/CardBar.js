@@ -1,14 +1,15 @@
 import React from "react";
-import img from "../asset/cat_intract.png";
-import unlockImg from "../asset/locked.png";
-import img2 from "../asset/checklist.png";
+import img from "../../asset/cat_intract.png";
+import unlockImg from "../../asset/locked.png";
+import img2 from "../../asset/checklist.png";
+import "./cardBar.css"
 
 const CardBar = () => {
   return (
     <div>
       <div className="card card-compact bg-base-100 w-96 shadow-xl">
         <img
-          className="w-10 ml-16 mb-2 py-2 px-2 border rounded-full bg-gray-800"
+          className="img-con w-10 ml-16 mb-2 py-2 px-2 border rounded-full bg-gray-800"
           src={img2}
         />
         <figure className="flex items-end">

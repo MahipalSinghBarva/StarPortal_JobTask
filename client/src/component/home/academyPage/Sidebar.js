@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import image from "../asset/2d1ac16ea7c9416d94a74f2ba2fe8d4a.png";
-import Img1 from "../asset/Img1.png";
-import Img2 from "../asset/Img2.jpg";
-import Img3 from "../asset/Img3.jpg";
-import checklist from "../asset/checklist.png";
-import doller from "../asset/dollar.png";
+import image from "../../asset/2d1ac16ea7c9416d94a74f2ba2fe8d4a.png";
+import Img1 from "../../asset/Img1.png";
+import Img2 from "../../asset/Img2.jpg";
+import Img3 from "../../asset/Img3.jpg";
+import checklist from "../../asset/checklist.png";
+import doller from "../../asset/dollar.png";
 
 const Sidebar = () => {
   const [isDropdownOpen, setIsDropdownOpen] = useState(false);

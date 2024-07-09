@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import img from "../asset/bitcoin-what-is-crypto-scaled.jpg";
+import img from "../../asset/bitcoin-what-is-crypto-scaled.jpg";
+import "./VideoCard.css"
 
 const VideoCard = () => {
   const [isHovered, setIsHovered] = useState(false);
@@ -25,7 +26,7 @@ const VideoCard = () => {
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
       >
-        <div className="bg-gray-900 rounded-lg overflow-hidden relative ">
+        <div className=" bg-gray-900 rounded-lg overflow-hidden relative ">
           {isPlaying ? (
             <iframe
               className="w-full h-96"
