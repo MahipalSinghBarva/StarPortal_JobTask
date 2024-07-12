@@ -1,0 +1,118 @@
+/* luckyDrow.css */
+
+.lucky-draw-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    padding: 20px;
+  }
+  
+  .reward-div {
+    text-align: center;
+    border: 1px solid #444;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #2d2d2d;
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    color: #888;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0;
+    gap: 15px;
+    padding: 10px;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+  }
+  
+  .time-box {
+    text-align: center;
+  }
+  
+  .time {
+    display: block;
+    font-size: 2rem;
+    color: #fff;
+  }
+  
+  .label {
+    color: #f00;
+  }
+  
+  .reward-details {
+    background-color: #2d2d2d;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #444;
+  }
+  
+  .image-container {
+    margin-bottom: 10px;
+  }
+  
+  .reward-image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+  }
+  
+  .info {
+    display: flex;
+    justify-content: space-between;
+    color: #888;
+    margin: 10px 0;
+  }
+  
+  .earndrop {
+    color: #fff;
+  }
+  
+  .separator {
+    margin: 10px 0;
+    border: 0.5px solid #444;
+  }
+  
+  .tasks {
+    color: #aaa;
+  }
+  
+  .claim-button {
+    border: 1px solid #444;
+    padding: 10px 40px;
+    background-color: #444;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .lucky-draw-container{
+        margin-top: 10em;
+    }
+    .countdown {
+      flex-direction: column;
+      gap: 10px;
+      /* margin-top: 10px; */
+    }
+  
+    .info {
+      flex-direction: column;
+      align-items: center;
+    }
+    .reward-details{
+        /* margin-top: 10em; */
+    }
+  }
+  

@@ -1,0 +1,11 @@
+@media (max-width:768px) {
+    .search-fun{
+        display: none;
+    }
+}
+
+@media (max-width:1080px) {
+    .search-fun{
+        max-width: 10em;
+    }
+}
